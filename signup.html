@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap.css">
+        <title>SignUpForm</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="display-2 text-warning"><b>Register Now and place your order</b></h1>
+            <form action="action1.php" method="POST">
+                    <table class="table table-borderless">
+                        
+                        <tr>
+                            <td><label for="username">Username</label></td>
+                            <td><input type="text" name="username" id="username" value="" placeholder="Create a Valid Username" maxlength="15" required="required" title="Username" /></td>
+                            <br />
+                        </tr>
+
+                        <tr>
+                            <td><label for="password">password</label></td>
+                            <td><input type="password" name="pass" id="password" value="" placeholder="Create a password" maxlength="15" required="required" title="password" /></td>
+                            <br />
+                        </tr>
+
+                        <tr>
+                            <td><label for="Sname">Name</label></td>
+                            <td><input type="text" name="name" id="Sname" value="" placeholder="Enter your full name" maxlength="55" required="required" title="Full_name"/></td>
+                            <br />
+                        </tr>
+
+                        <tr>
+                            <td><label for="Sname">Location</label></td>
+                            <td><input type="text" name="name" id="Sname" value="" placeholder="Enter your current place" maxlength="55" required="required" title="Full_name"/></td>
+                            <br />
+                        </tr>
+
+                        <tr>
+                            <td><label>Gender</label></td>
+                            <td><input  type="radio" name="gender" id="male" value="male" required="required"  />
+                                <label for="male">Male</label>
+                                &nbsp; &nbsp; &nbsp;
+                                <input type="radio" name="gender" id="female" value="female" required="required" />
+                                <label for="female">Female</label>
+                            </td>
+                            <br />
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">E-mail</label></td>
+                            <td><input type="email" name="email" id="email" value="" placeholder="Enter a Valid E-mail" maxlength="35" required="required" title="emailId"/></td>
+                            <br />
+                        </tr>
+
+                        <tr>
+                            <td><label for="mobilenumber">Mobile Number</label></td>
+                            <td><input type="number" name="mobilenumber" id="mobilenumber" value="" placeholder="Enter your mobile number" maxlength="10" required="required" title="mobile number"/></td>
+                            <br />
+                        </tr>
+                        <tr>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="reset" name="reset" value="reset" class="bg-danger rounded"/></td>
+                            <td><input type="submit" name="submit" value="submit" class="bg-success rounded"/></td>
+                        </tr>
+
+                        <tr>
+                            <td>Already Registered? click Here to</td>
+                            <td><a href="login.php">login</a></td>
+                        </tr>
+                    </table>
+            </form>
+        </div>
+    </body>
+</html>
